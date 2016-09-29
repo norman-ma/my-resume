@@ -1,0 +1,15 @@
+h1	{
+		font-family: Lato,serif;
+		border-bottom: 2px solid black;
+	}
+ul 	{
+		list-style: none;	
+	}
+
+li li{
+		font-style: italic;
+	}
+	
+span{
+		font-style: bold;
+	}
