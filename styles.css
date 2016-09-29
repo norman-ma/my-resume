@@ -1,15 +1,42 @@
-h1	{
+body {
 		font-family: Lato,serif;
+	}
+	
+h1	{
 		border-bottom: 2px solid black;
 	}
+	
 ul 	{
 		list-style: none;	
 	}
 
-li li{
+a {
+		text-decoration: none;
+		color: grey;
+	}
+	
+#intro {
+		width: 70%;
 		font-style: italic;
 	}
 	
-span{
-		font-style: bold;
+li li{
+		font-style: italic;
 	}
+
+.info{
+		clear:all;
+		width:60%;
+}	
+.info>h4{
+	float: left;
+}
+
+.info>ul{
+	margin-left: 20%;
+	border-left: 2px solid black;
+}
+
+
+
+	
