@@ -1,5 +1,5 @@
 body {
-		background-color: #	FAFAFA;
+		background-color: #FAFAFA;
 		font-family: Lato,serif;
 	}
 	
@@ -28,7 +28,12 @@ ul 	{
 img{
 		width: 30%;
 		height:30%;		
-}	
+		-ms-transform: rotate(-1deg); /* IE 9 */
+		-webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
+		transform: rotate(-1deg);
+		border: 5px solid white;
+		box-shadow: 2px 2px grey;
+	}	
 	
 a {
 		text-decoration: none;
@@ -47,7 +52,7 @@ li li{
 .info{
 		clear:all;
 		width:90%;
-}	
+	}	
 
 .info>h4{
 		float: left;
@@ -60,4 +65,4 @@ li li{
 
 .info>ul>li.firstchild{
 		font-weight: bold;
-		}
+	}
