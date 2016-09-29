@@ -1,4 +1,5 @@
 body {
+		background-color: #	FAFAFA;
 		font-family: Lato,serif;
 	}
 	
@@ -9,7 +10,26 @@ h1	{
 ul 	{
 		list-style: none;	
 	}
+	
+#head {
+		float: left;
+		padding-bottom: 40px;
+	}
 
+#img{
+		height: 1000px;
+		width: 1000px;
+		z-index: 1;		
+		left: 73%;
+		position:absolute;		
+		margin-top: 0;
+	}
+	
+img{
+		width: 30%;
+		height:30%;		
+}	
+	
 a {
 		text-decoration: none;
 		color: grey;
@@ -26,17 +46,18 @@ li li{
 
 .info{
 		clear:all;
-		width:60%;
+		width:90%;
 }	
+
 .info>h4{
-	float: left;
-}
+		float: left;
+	}
 
 .info>ul{
-	margin-left: 20%;
-	border-left: 2px solid black;
-}
+		margin-left: 200px;
+		border-left: 2px solid black;
+	}
 
-
-
-	
+.info>ul>li.firstchild{
+		font-weight: bold;
+		}
