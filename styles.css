@@ -3,8 +3,11 @@ body {
 		font-family: Lato,serif;
 	}
 	
+div {
+		margin-left: 30px;
+	}
 h1	{
-		border-bottom: 2px solid black;
+		border-bottom: 2px groove black;
 	}
 	
 ul 	{
