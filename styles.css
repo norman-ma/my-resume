@@ -19,9 +19,7 @@ ul 	{
 		padding-bottom: 40px;
 	}
 
-#img{
-		height: 1000px;
-		width: 1000px;
+#img{		
 		z-index: 1;		
 		left: 73%;
 		position:absolute;		
@@ -29,15 +27,20 @@ ul 	{
 	}
 	
 img{
-		width: 30%;
-		height:30%;		
+		width:70%;
+		height:70%;
 		-ms-transform: rotate(-1deg); /* IE 9 */
 		-webkit-transform: rotate(-1deg); /* Chrome, Safari, Opera */
 		transform: rotate(-1deg);
 		border: 5px solid white;
 		box-shadow: 2px 2px grey;
-	}	
+	}
 	
+#body{
+		top: 260px;
+		position: absolute;
+	}
+
 a {
 		text-decoration: none;
 		color: grey;
@@ -53,19 +56,15 @@ li li{
 	}
 
 .info{
-		clear:all;
-		width:90%;
+		clear: all;
+		width: 90%;
 	}	
 
 .info>h4{
 		float: left;
 	}
 
-.info>ul{
+.info>ul{		
 		margin-left: 150px;
 		border-left: 2px solid black;
-	}
-
-.info>ul>li>first-child{
-		font-weight: bold;
 	}
