@@ -1,6 +1,7 @@
 body {
 		background-color: #FAFAFA;
 		font-family: Lato,serif;
+		background-image: url("bg.png");
 	}
 	
 div {
@@ -67,4 +68,9 @@ li li{
 .info>ul{		
 		margin-left: 150px;
 		border-left: 2px solid black;
+	}
+	
+.exp{
+		font-size: .9em;
+		padding-bottom: 5px;
 	}
